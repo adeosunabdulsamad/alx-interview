@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Determines the fewest number of coins needed to meet a given amount total
+Determines the fewest number of coins needed to meet a given amount total.
 """
+
 
 def makeChange(coins, total):
     """
@@ -19,6 +20,7 @@ def makeChange(coins, total):
 
     coins.sort(reverse=True)
     num_coins = 0
+
     for coin in coins:
         if total == 0:
             break
