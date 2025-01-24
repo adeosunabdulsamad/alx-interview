@@ -13,7 +13,7 @@ def makeChange(coins, total):
         total (int): The total amount to meet.
 
     Returns:
-        int: Fewest number of coins needed to meet the total, or -1 if not possible.
+        int: smallest coins to meet the total, or -1 if impossible.
     """
     if total <= 0:
         return 0
